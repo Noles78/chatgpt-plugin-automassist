@@ -1,10 +1,10 @@
 openapi: 3.0.1
 info:
-    title: Stock Quote
-    description: Get price and volume information for a given stock.
+    title: Anthony Plugin
+    description: This API lets you search through the LangChain and Pinecone Documentation.
     version: "v1"
 servers:
-    - url: [YOUR_DOMAIN, must be HTTPS]
+    - url: https://walrus-app-2qvap.ondigitalocean.app
 paths:
     /stock:
         get:
